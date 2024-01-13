@@ -4,23 +4,24 @@ import Navbar from '../../Components/Navbar'
 import FooterWeb from '../../Components/Footer'
 import Contact from '../../Components/Contact'
 import Proyects from '../../Components/Proyects'
-import Skills from '../../Components/Skills'
+import Experience from '../../Components/Experience'
+import Home from '../../Components/Home'
 function App() {
 
   return (
     <>
       <div className="">
 
-        <header>
+        <header className=" w-full flex justify-center">
             <Navbar  />
         </header>
 
         <main>
-          {/* <Home id="home" /> */}
-          <About id="about" />
-          <Skills id="sliks" />
-          <Proyects id="proyects" />
-          <Contact id="contact" />
+          <Home /> 
+          <About />
+          <Experience />
+          <Proyects />
+          <Contact />
         </main>
 
         <FooterWeb />

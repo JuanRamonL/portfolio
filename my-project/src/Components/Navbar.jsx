@@ -20,7 +20,7 @@ function Navbar() {
           <div>
             <ul className="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
               <li><a className="hover:text-gray-300 text-xl" href="#about">Sobre mi</a></li>
-              <li><a className="hover:text-gray-300 text-xl" href="#skills">Experiencia</a></li>
+              <li><a className="hover:text-gray-300 text-xl" href="#skills">Habilidades</a></li>
               <li><a className="hover:text-gray-300 text-xl" href="#proyects">Proyectos</a></li>
               <li><a className="hover:text-gray-300 text-xl" href="#contact">Contacto</a></li>
             </ul>

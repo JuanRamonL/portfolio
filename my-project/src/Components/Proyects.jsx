@@ -18,7 +18,7 @@ function Contact() {
                       Aplicación para alumnos de la escuela de música CantaEscuela, para poder ver sus Materias aprobadas y pendientes, ver sus certificados y descargarlos.
                     </p>
                     <a href="https://appcantaescuela.com.ar/" target="_blank" rel="noopener noreferrer"
-                    className=" border-2 border-gray-950 px-8 py-2 rounded-lg">
+                    className="px-8 py-2 rounded-full bg-white text-gray-950 border-2 border-gray-200 transform hover:scale-110 transition duration-500 hover:shadow-md font-semibold">
                       Ver
                     </a>
                     
@@ -35,7 +35,7 @@ function Contact() {
                       Sistema de validación de certificados para alumnos de la escuela de música CantaEscuela.
                     </p>
                     <a href="https://appcantaescuela.com.ar/" target="_blank" rel="noopener noreferrer"
-                    className=" border-2 border-gray-950 px-8 py-2 mt-8 rounded-lg">
+                    className="px-8 py-2 rounded-full bg-white text-gray-950 border-2 border-gray-200 transform hover:scale-110 transition duration-500 hover:shadow-md font-semibold">
                       Ver
                     </a>
                     
@@ -49,10 +49,10 @@ function Contact() {
                   <div class="mt-4 text-gray-600 text-center">
                     <h2 class="text-xl font-bold mb-4 px-4 py-4">Github</h2>
                     <p className="mb-6 px-4 h-[100px] ">
-                      ver mas proyectos realizados en mi cuenta de github.
+                      Ver mas proyectos realizados en mi cuenta de github.
                     </p>
                     <a href="https://github.com/JuanRamonL" target="_blank" rel="noopener noreferrer"
-                    className=" border-2 border-gray-950 px-8 py-2 mt-8 rounded-lg">
+                    className=" px-8 py-2 rounded-full bg-white text-gray-950 border-2 border-gray-200 transform hover:scale-110 transition duration-500 hover:shadow-md font-semibold">
                       Ver
                     </a>
                     

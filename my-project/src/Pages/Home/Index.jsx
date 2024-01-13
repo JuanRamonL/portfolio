@@ -4,7 +4,7 @@ import Navbar from '../../Components/Navbar'
 import FooterWeb from '../../Components/Footer'
 import Contact from '../../Components/Contact'
 import Proyects from '../../Components/Proyects'
-import Experience from '../../Components/Experience'
+import Skills from '../../Components/Skills'
 import Home from '../../Components/Home'
 function App() {
 
@@ -19,7 +19,7 @@ function App() {
         <main>
           <Home /> 
           <About />
-          <Experience />
+          <Skills />
           <Proyects />
           <Contact />
         </main>

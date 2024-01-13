@@ -2,7 +2,7 @@ function Experience() {
     return (
       <>
         <section className="w-full" id="skills">
-          <div className=" grid  md:h-[80vh] m-auto">
+          <div className=" grid  md:h-[70vh] m-auto">
             <div>
             <h2 className="mt-8 text-2xl tracking-widest text-gray-600 text-center">Explorá</h2>
             <h3 className="mt-2 text-center text-5xl text-gray-600 font-bold">Mis Habilidades</h3>

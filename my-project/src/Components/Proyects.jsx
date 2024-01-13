@@ -1,7 +1,7 @@
 function Contact() {
   return (
     <>
-      <section className="grid md:h-[100vh] m-auto" id="proyects">
+      <section className="grid md:h-[70vh] m-auto" id="proyects">
           <div class="bg-white py-14">
             <h2 class="text-2xl tracking-widest text-gray-600 text-center">Explorá</h2>
             <h3 class="mt-2 text-center text-5xl text-gray-600 font-bold">Mis proyectos</h3>
@@ -17,10 +17,19 @@ function Contact() {
                     <p className="mb-6 px-4 h-[100px] ">
                       Aplicación para alumnos de la escuela de música CantaEscuela, para poder ver sus Materias aprobadas y pendientes, ver sus certificados y descargarlos.
                     </p>
-                    <a href="https://appcantaescuela.com.ar/" target="_blank" rel="noopener noreferrer"
-                    className="px-8 py-2 rounded-full bg-white text-gray-950 border-2 border-gray-200 transform hover:scale-110 transition duration-500 hover:shadow-md font-semibold">
-                      Ver
-                    </a>
+                    <div className="flex justify-center">
+                      <a href="https://appcantaescuela.com.ar/" target="_blank" rel="noopener noreferrer"
+                      className="px-8 py-2 rounded-full bg-white text-gray-950 border-2 border-gray-200 transform hover:scale-110 transition duration-500 hover:shadow-md font-semibold mx-2">
+                        <i class="fa-brands fa-github px-2 text-2xl"></i>
+                        Ver
+                      </a>
+
+                      <a href="https://appcantaescuela.com.ar/" target="_blank" rel="noopener noreferrer"
+                      className="px-8 py-2 rounded-full bg-white text-gray-950 border-2 border-gray-200 transform hover:scale-110 transition duration-500 hover:shadow-md font-semibold">
+                        <i class="fa-solid fa-globe px-2 text-2xl"></i>
+                        Ver
+                      </a>
+                    </div>
                     
                   </div>
                 </div>
@@ -34,10 +43,19 @@ function Contact() {
                     <p className="mb-6 px-4 h-[100px] ">
                       Sistema de validación de certificados para alumnos de la escuela de música CantaEscuela.
                     </p>
-                    <a href="https://appcantaescuela.com.ar/" target="_blank" rel="noopener noreferrer"
-                    className="px-8 py-2 rounded-full bg-white text-gray-950 border-2 border-gray-200 transform hover:scale-110 transition duration-500 hover:shadow-md font-semibold">
-                      Ver
-                    </a>
+                    <div className="flex justify-center">
+                      <a href="https://appcantaescuela.com.ar/" target="_blank" rel="noopener noreferrer"
+                      className="px-8 py-2 rounded-full bg-white text-gray-950 border-2 border-gray-200 transform hover:scale-110 transition duration-500 hover:shadow-md font-semibold mx-2">
+                        <i class="fa-brands fa-github px-2 text-2xl"></i>
+                        Ver
+                      </a>
+
+                      <a href="https://appcantaescuela.com.ar/" target="_blank" rel="noopener noreferrer"
+                      className="px-8 py-2 rounded-full bg-white text-gray-950 border-2 border-gray-200 transform hover:scale-110 transition duration-500 hover:shadow-md font-semibold">
+                        <i class="fa-solid fa-globe px-2 text-2xl"></i>
+                        Ver
+                      </a>
+                    </div>
                     
                   </div>
                 </div>
@@ -51,10 +69,13 @@ function Contact() {
                     <p className="mb-6 px-4 h-[100px] ">
                       Ver mas proyectos realizados en mi cuenta de github.
                     </p>
-                    <a href="https://github.com/JuanRamonL" target="_blank" rel="noopener noreferrer"
-                    className=" px-8 py-2 rounded-full bg-white text-gray-950 border-2 border-gray-200 transform hover:scale-110 transition duration-500 hover:shadow-md font-semibold">
-                      Ver
-                    </a>
+                    <div className="flex justify-center">
+                      <a href="https://appcantaescuela.com.ar/" target="_blank" rel="noopener noreferrer"
+                      className="px-8 py-2 rounded-full bg-white text-gray-950 border-2 border-gray-200 transform hover:scale-110 transition duration-500 hover:shadow-md font-semibold mx-2">
+                        <i class="fa-brands fa-github px-2 text-2xl"></i>
+                        GitHub
+                      </a>
+                    </div>
                     
                   </div>
                 </div>

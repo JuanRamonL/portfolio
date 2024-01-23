@@ -6,7 +6,7 @@ function Home() {
         <div className="flex justify-center relative md:order-1 pb-12 w-[100%] md:w-[100%] m-auto" >
           <img src="./img/circulo.png" alt="" className=""/>
 
-          <img src="./img/icon/html.png" alt="" className="w-[10%] rotate-[12deg] absolute  top-0 left-[5%] z-0" />
+          <img src="./img/icon/html.png" alt="" className="w-[10%] rotate-[12deg] absolute  top-0 left-[5%] z-0 " />
 
           <img src="./img/icon/css.png" alt="" className="w-[12%]  rotate-[-12deg] absolute top-30 right-[5%] z-0" />
 

@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    * {
+        @apply font-poppins;
+    }
+    a {
+        @apply text-lg  ;
+    }
+    .btn {
+        @apply px-4 py-2 relative;
+    }
+    .btn::after {
+        @apply content-[''] absolute w-[100%] left-0 bottom-0 h-[0.1rem] bg-blue-200 ;
+    }
+
+    .btnUndeline::after {
+        @apply transform scale-0
+    }
+    
+    .btnUndeline:hover::after {
+        @apply transform scale-100 transition duration-500 ease-in-out shadow-xl shadow-cyan-200 rounded-lg
+    }
+
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+}
